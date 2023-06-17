@@ -25,6 +25,8 @@ const page = () => {
       console.log('false');
     }
   }
+  const previousQuestion = () => {
+  }
   const nextQuestion = () => {
     setSelectedAnswerIndex(null);
     setResult((prev) =>
